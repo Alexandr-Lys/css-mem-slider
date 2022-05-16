@@ -22,7 +22,7 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  row-gap: 20px;
+  row-gap: 1.3rem;
 }
 
 .wrapper input {
@@ -100,8 +100,8 @@ p {
 .controls label {
   cursor: pointer;
   display: block;
-  height: 35px;
-  width: 30px;
+  height: 2.2rem;
+  width: 1.9rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -114,10 +114,10 @@ p {
 }
 
 .controls label div {
-  width: 10px;
-  height: 10px;
+  width: 0.6rem;
+  height: 0.6rem;
   border-radius: 50%;
-  border: 2px solid #6868db;
+  border: 0.125rem solid #6868db;
   background-color: #6868db;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
@@ -125,11 +125,11 @@ p {
 
 .controls label:hover div {
   background-color: white;
-  border: 2px solid white;
+  border: 0.125rem solid white;
 }
 .controls label:active div {
   background-color: rgb(155, 150, 150);
-  border: 2px solid rgb(155, 150, 150);
+  border: 0.125rem solid rgb(155, 150, 150);
 }
 
 #slide1:checked ~ .description .controls label:nth-of-type(1) div,
@@ -156,45 +156,45 @@ p {
 
 @-webkit-keyframes sliderImg {
   from {
-    -webkit-transform: translateX(1px);
-            transform: translateX(1px);
+    -webkit-transform: translateX(0.0625rem);
+            transform: translateX(0.0625rem);
   }
   to {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
 @keyframes sliderImg {
   from {
-    -webkit-transform: translateX(1px);
-            transform: translateX(1px);
+    -webkit-transform: translateX(0.0625rem);
+            transform: translateX(0.0625rem);
   }
   to {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
 @-webkit-keyframes sliderDes {
   from {
-    -webkit-transform: translateX(700px);
-            transform: translateX(700px);
+    -webkit-transform: translateX(43.75rem);
+            transform: translateX(43.75rem);
   }
   to {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
 @keyframes sliderDes {
   from {
-    -webkit-transform: translateX(700px);
-            transform: translateX(700px);
+    -webkit-transform: translateX(43.75rem);
+            transform: translateX(43.75rem);
   }
   to {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
